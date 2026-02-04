@@ -43,6 +43,27 @@
                     "embed": "true"
                 }
             ]
+        },
+        {
+            "name": "Unicross",
+            "icon": "plus",
+            "description": "Reliable, accessible cross-gantry 3D printer",
+            "repo": "https://github.com/IceChes/Unicross-3",
+            "author": "IceChes",
+            "pages": [
+                {
+                    "title": "About",
+                    "url": "https://raw.githubusercontent.com/IceChes/Unicross-3/refs/heads/main/README.md",
+                    "icon": "book-open-text"
+                },
+            ]
+        },
+        {
+            "name": "Bitflash Robotics",
+            "icon": "star-four",
+            "description": "Overly complicated combat robotics",
+            "repo": "https://github.com/IceChes/BitflashRobotics",
+            "author": "IceChes",
         }
     ]
 }
