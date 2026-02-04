@@ -12,15 +12,6 @@ Assorted list of projects by the ungineers crew
   - remark-gfm
   - remark-breaks
 
-## about us page
-
-- display this with a discord icon [discord invite](https://discord.com/invite/MBcHGUv2CB)
-- separate page
-- i will write the text later, for now just put the link there 
-- display uni_cube_v0.webp
-- display this link under [calicube](https://www.printables.com/model/634840-ungineers-calicube)
-- centered
-
 ## projects
 
 - projects are a collection of links to markdown files
@@ -31,17 +22,17 @@ Assorted list of projects by the ungineers crew
 
 ## images
 
-- if image is absolute link, keep it
+- if image is absolute link, keeps it
   - raw.githubusercontent...
   - external site
-- if image is in context of repo, rewrite it to be a raw github link
+- if image is in context of repo, rewrites it to be a raw github link
   - ./folder/image.png
   - image.png
 
 ## links
 
 - similarly to images
-  - automagically rewrite the link to include github.com/...
+  - automagically rewrites the link to include github.com/...
 
 ## json structure
 
