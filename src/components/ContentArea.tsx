@@ -122,20 +122,14 @@ export function ContentArea({ page }: ContentAreaProps) {
   }
 
   if (page.pdf) {
+    const viewerUrl = `https://docs.google.com/viewer?url=${encodeURIComponent(page.url)}&embedded=true`
     return (
       <div className="flex-1 w-full h-full">
-        <object
-          data={page.url}
-          type="application/pdf"
-          className="w-full h-full"
-        >
-          <p className="p-8 text-center">
-            Unable to display PDF.{' '}
-            <a href={page.url} target="_blank" rel="noopener noreferrer" className="text-blue-400 underline">
-              Download it here
-            </a>
-          </p>
-        </object>
+        <iframe
+          src={viewerUrl}
+          className="w-full h-full border-0"
+          title={page.title}
+        />
       </div>
     )
   }
